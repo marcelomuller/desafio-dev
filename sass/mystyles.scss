@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+.data {
+    div:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+#input {
+    max-width: 300px;
+}

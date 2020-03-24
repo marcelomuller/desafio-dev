@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Divisores</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyles.css" />
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <header>
+                    <h3 class="title">Resultado:</h3>
+                </header>
+                <div class="res subtitle">
+                        Divisores do número:
+                        <%= divisors.join([separador = ' - ']) %><br>
+                        <%= `O número ${prime ? '' : 'não'} é primo.` %>
+                </div>
+                <a href="/" class="button is-dark is-link is-outlined">Voltar</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

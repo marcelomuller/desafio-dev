@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Divisores</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyles.css" />
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Divisores
+            </h1>
+            <h2 class="subtitle">
+              Com base no número inserido, calcula os divisores
+              e verifica se é primo ou não.
+            </h2>
+          </div>
+        </div>
+      </section>
+    <section>
+        <form action="/resultado" method="POST">
+                <div class="data container">   
+                    <div class="field has-addons">
+                        <div class="control">
+                            <input class="input is-rounded" type="number"
+                            name="inputNumber" placeholder="Insira um número" required>
+                        </div>
+                        <div class="control">
+                            <button type="submit" class="button is-dark is-rounded">
+                                Calcular
+                            </button>
+                        </div>
+                </div>
+        </form>
+        <div class="res"></div>
+    </section>
+</body>
+</html>

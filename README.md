@@ -22,5 +22,8 @@ Inicie o servidor:
 $ npm start
 ```
 
+Acesse o servidor:
+*localhost:5000*
+
 ### Heroku
 A solução foi publicada no [Heroku](https://vast-ridge-70485.herokuapp.com).
